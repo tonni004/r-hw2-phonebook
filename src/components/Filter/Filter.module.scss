@@ -1,0 +1,10 @@
+.FilterLabel {
+    composes: PhonebookLabel from '../PhonebookForm/PhonebookForm.module.scss';
+
+    text-align: center;
+    font-size: 15px;
+}
+
+.FilterInput {
+    composes: PhonebookInput from '../PhonebookForm/PhonebookForm.module.scss';
+}

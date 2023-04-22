@@ -1,0 +1,81 @@
+@import '../Styles/_variables';
+
+.ContactsList {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.Notification {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+}
+
+.NotificationTitle {
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.ContactsItem {
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
+    border-radius: 9px;
+    font-size: 17px;
+    transition: transform 500ms cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:not(:last-child){
+     margin-bottom: 7px;
+    }
+
+    &:hover,
+    &:focus {
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(1.1);
+    background-color: $assent-color;
+    color: white;
+}
+}
+
+
+.ContactName {
+    margin-right: 10px;
+}
+
+.DeleteBtn {
+    display: none;
+    border: none;
+    margin-left: 12px;
+    
+    background-color: transparent;
+    color: white;
+
+    cursor: pointer;
+
+    transition: color 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    .ContactsItem:hover &,
+    .ContactsItem:focus & {
+        
+            display: block;
+
+    }
+
+        &:hover,
+        &:focus {
+            color:hsl(0, 0%, 92%);
+    
+        }
+
+}
+
+
+
