@@ -33,7 +33,7 @@ const ContactsList = ({ contacts, deleteContact }) => (
 )
 
 ContactsList.propTypes = {
-    contacts: PropTypes.func.isRequired,
+    contacts: PropTypes.array.isRequired,
     deleteContact: PropTypes.func.isRequired,
 }
 
