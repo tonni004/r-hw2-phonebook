@@ -8,5 +8,6 @@ export const addContact = createAction('contacts/add', ({ name, number }) => ({
         number: number,
     }
 }));
+
 export const deleteContact = createAction('contacts/delete');
 export const filterContacts = createAction('contacts/changeFilter');
