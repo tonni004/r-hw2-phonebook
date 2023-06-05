@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tonni004/r-hw2-phonebook/static/css/main.8608c6e7.css",
-    "main.js": "/tonni004/r-hw2-phonebook/static/js/main.f7ba3db7.js",
-    "static/media/material-icons-two-tone.woff": "/tonni004/r-hw2-phonebook/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
-    "static/media/material-icons-two-tone.woff2": "/tonni004/r-hw2-phonebook/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
-    "static/media/material-icons-round.woff": "/tonni004/r-hw2-phonebook/static/media/material-icons-round.5d681e2edae8c60630db.woff",
-    "static/media/material-icons-outlined.woff": "/tonni004/r-hw2-phonebook/static/media/material-icons-outlined.f882956fd323fd322f31.woff",
-    "static/media/material-icons-round.woff2": "/tonni004/r-hw2-phonebook/static/media/material-icons-round.c380809fd3677d7d6903.woff2",
-    "static/media/material-icons.woff": "/tonni004/r-hw2-phonebook/static/media/material-icons.4d73cb90e394b34b7670.woff",
-    "static/media/material-icons-sharp.woff": "/tonni004/r-hw2-phonebook/static/media/material-icons-sharp.3a4004a46a653d4b2166.woff",
-    "static/media/material-icons-outlined.woff2": "/tonni004/r-hw2-phonebook/static/media/material-icons-outlined.6f420cf17cc0d7676fad.woff2",
-    "static/media/material-icons-sharp.woff2": "/tonni004/r-hw2-phonebook/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
-    "static/media/material-icons.woff2": "/tonni004/r-hw2-phonebook/static/media/material-icons.0c35d18bf06992036b69.woff2",
-    "index.html": "/tonni004/r-hw2-phonebook/index.html",
-    "main.8608c6e7.css.map": "/tonni004/r-hw2-phonebook/static/css/main.8608c6e7.css.map",
-    "main.f7ba3db7.js.map": "/tonni004/r-hw2-phonebook/static/js/main.f7ba3db7.js.map"
+    "main.css": "/r-hw2-phonebook/static/css/main.e6317b9b.css",
+    "main.js": "/r-hw2-phonebook/static/js/main.f7ba3db7.js",
+    "static/media/material-icons-two-tone.woff": "/r-hw2-phonebook/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
+    "static/media/material-icons-two-tone.woff2": "/r-hw2-phonebook/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
+    "static/media/material-icons-round.woff": "/r-hw2-phonebook/static/media/material-icons-round.5d681e2edae8c60630db.woff",
+    "static/media/material-icons-outlined.woff": "/r-hw2-phonebook/static/media/material-icons-outlined.f882956fd323fd322f31.woff",
+    "static/media/material-icons-round.woff2": "/r-hw2-phonebook/static/media/material-icons-round.c380809fd3677d7d6903.woff2",
+    "static/media/material-icons.woff": "/r-hw2-phonebook/static/media/material-icons.4d73cb90e394b34b7670.woff",
+    "static/media/material-icons-sharp.woff": "/r-hw2-phonebook/static/media/material-icons-sharp.3a4004a46a653d4b2166.woff",
+    "static/media/material-icons-outlined.woff2": "/r-hw2-phonebook/static/media/material-icons-outlined.6f420cf17cc0d7676fad.woff2",
+    "static/media/material-icons-sharp.woff2": "/r-hw2-phonebook/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
+    "static/media/material-icons.woff2": "/r-hw2-phonebook/static/media/material-icons.0c35d18bf06992036b69.woff2",
+    "index.html": "/r-hw2-phonebook/index.html",
+    "main.e6317b9b.css.map": "/r-hw2-phonebook/static/css/main.e6317b9b.css.map",
+    "main.f7ba3db7.js.map": "/r-hw2-phonebook/static/js/main.f7ba3db7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8608c6e7.css",
+    "static/css/main.e6317b9b.css",
     "static/js/main.f7ba3db7.js"
   ]
 }
