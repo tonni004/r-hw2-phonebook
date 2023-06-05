@@ -21,10 +21,8 @@ const ContactsList = ({ contacts, deleteContact }) => (
 
                             <button
                                 className={styles.DeleteBtn}
-                                onClick={() => deleteContact(contact.id)}> <span className='material-icons'>delete</span></button></li>)
+                                onClick={() => deleteContact(contact)}> <span className='material-icons'>delete</span></button></li>)
                 })
-
-
 
         }
     </ul>
@@ -36,7 +34,5 @@ ContactsList.propTypes = {
     contacts: PropTypes.array.isRequired,
     deleteContact: PropTypes.func.isRequired,
 }
-
-
 
 export default ContactsList;
