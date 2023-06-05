@@ -1,8 +1,8 @@
 {
-  "name": "r-hw2-phonebook",
+  "name": "r-redux-toolkit-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/tonni004/r-hw2-phonebook/",
+  "homepage": "https://github.com/tonni004/r-redux-toolkit-phonebook/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
