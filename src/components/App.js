@@ -1,6 +1,9 @@
 // import { Component } from "react";
-import { connect } from "react-redux";
-import { addContact, deleteContact, filterContacts } from '../redux/contacts-actions';
+import { connect, useDispatch } from "react-redux";
+import { useEffect } from 'react';
+import { addContacts, deleteContacts, fetchContacts } from '../redux/contacts-operations';
+import { filterContacts } from '../redux/contacts-actions';
+import { getFilterContacts, getVisibleContacts } from '../redux/contacts-selectors';
 // components
 import Container from "./Container";
 import Section from "./Section";
@@ -16,6 +19,12 @@ function App({
   onDeleteContact,
   onFilterContacts,
 }) {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchContacts(
+    ));
+  }, [dispatch]);
 
   return (
     <>
@@ -33,7 +42,7 @@ function App({
 
           <ContactsList
             contacts={contacts}
-            deleteContact={id => onDeleteContact(id)}
+            deleteContact={contacts => onDeleteContact(contacts.id)}
           />
         </Section>
 
@@ -44,19 +53,15 @@ function App({
 }
 
 const mapStateToStore = state => {
-  const { contacts } = state;
-  const { items, filter } = contacts;
-  const normalizedFilter = filter.toLowerCase();
-
   return {
-    contacts: items.filter(contact => contact.name.toLowerCase().includes(normalizedFilter)),
-    filter: state.contacts.filter,
+    contacts: getVisibleContacts(state),
+    filter: getFilterContacts(state),
   }
 };
 
 const mapDispatchToProps = dispatch => ({
-  onAddContact: contact => dispatch(addContact(contact)),
-  onDeleteContact: id => dispatch(deleteContact(id)),
+  onAddContact: contact => dispatch(addContacts(contact)),
+  onDeleteContact: id => dispatch(deleteContacts(id)),
   onFilterContacts: value => dispatch(filterContacts(value)),
 })
 

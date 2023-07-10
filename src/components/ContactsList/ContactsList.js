@@ -16,7 +16,7 @@ const ContactsList = ({ contacts, deleteContact }) => (
                         <li className={styles.ContactsItem} key={contact.id}>
                             <div>
                                 <span className={styles.ContactName}>{contact.name}:</span>
-                                <span>{contact.number}</span>
+                                <span>{contact.phone}</span>
                             </div>
 
                             <button

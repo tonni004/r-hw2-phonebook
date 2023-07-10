@@ -31,9 +31,9 @@
     transition: transform 500ms ease,
     background-color 500ms ease;
 
-    &:not(:last-child){
-     margin-bottom: 8px;
-    }
+    // &:not(:last-child){
+    //  margin-bottom: 8px;
+    // }
 
     &:hover,
     &:focus {
